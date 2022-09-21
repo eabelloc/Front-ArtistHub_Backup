@@ -1,0 +1,141 @@
+/*WRAPPER*/
+
+.project_detail_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*INFO*/
+.project_infodetail_containerdos {
+    margin-left: 40px;
+}
+
+.project_title_container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px 200px;
+    border-radius: 5px;
+    border: 1px solid var(--color-font-secondary);
+    flex-wrap: wrap;
+}
+
+.project_title_container h2 {
+    color: var(--color-font-secondary);
+}
+
+.project_content_containerdos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 15px 60px;
+    border-radius: 5px;
+    border: 1px solid var(--color-font-secondary);
+    flex-wrap: wrap;
+}
+
+.project_img_container img {
+    width: 100%;
+}
+
+.project_img_container {
+    width: 350px;
+    height: 350px;
+}
+
+.project_info_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px 200px;
+    border-radius: 5px;
+    border: 1px solid var(--color-font-secondary);
+    flex-wrap: wrap;
+}
+.project_description {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*FORM*/
+.project_form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.edit_project {
+    padding-bottom: 30px;
+  }
+  .edit_project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile_form {
+    max-width: 300px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .boxuno_boxdos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .boxuno {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 0.5rem;
+    margin-left: 10px;
+    padding: 50px;
+    border-radius: 6px;
+  }
+  .boxdos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 0.5rem;
+    margin-left: 10px;
+    padding: 50px;
+    border-radius: 6px;
+  }
+  
+  .button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project_info_container {
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 930px) {
+    .project_detail_wrapper {
+        flex-direction: column;
+    }
+    }

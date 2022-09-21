@@ -1,0 +1,69 @@
+.card-container {
+  min-width: 350px;
+  max-width: 600px;
+  height: auto;
+}
+
+article {
+  text-align: center;
+}
+
+article img {
+  margin: auto;
+  max-width: 80px;
+  border: solid var(--background) 4px;
+  border-radius: 50%;
+  margin-top: 75px;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px 20px 0px 20px;
+  color: var(--color-font-secondary);
+}
+
+.normal-text {
+  font-weight: normal;
+  font-size: 0.95rem;
+  text-align: center;
+  padding-bottom: 10px;
+  color: var(--color-font-secondary);
+}
+
+/* SOCIAL STATS */
+.smaller-text {
+  font-weight: normal;
+  font-size: 0.7rem;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  line-height: 5px;
+}
+
+.social-container {
+  display: flex;
+  border-top: solid rgb(0, 0, 0) 1px;
+  justify-content: space-around;
+}
+
+.divboton {
+  display: flex;
+  border-top: solid rgb(0, 0, 0) 1px;
+  text-align: center;
+  justify-content: center;
+}
+
+.social-element {
+  max-width: 50px;
+}
+
+.social-element a {
+  max-width: 50px;
+}
+
+.social-container img {
+  margin-top: 10px;
+  width: 40px;
+}

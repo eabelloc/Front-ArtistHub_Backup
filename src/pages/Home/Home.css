@@ -1,0 +1,94 @@
+.background_div {
+  height: 68vh;
+  background-image: url("../../../public/assets/background-div.jpg");
+  background-size: cover;
+  position: relative;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+
+.artisthub_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.subtitle_container {
+  padding: 20px;
+  background: var(--highlight-header);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.logo_img_container img {
+  width: 100%;
+}
+.logo_img_container {
+  width: 50px;
+  height: 50px;
+}
+
+.artisthub_title div h1 {
+  color: var(--color-font-secondary);
+}
+.artisthub_title div h2 {
+  color: var(--highlight);
+}
+
+.all_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+}
+
+.user_figure_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user_img_containter img {
+  width: 100%;
+}
+
+.user_img_containter {
+  width: 80px;
+  height: 80px;
+  margin: 15px;
+}
+
+.login_register_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.register_container {
+  margin: 30px;
+}
+
+.user_figure {
+  margin: 20px;
+  background-color: var(--primary);
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+}
+.user_figure h2 {
+  text-align: center;
+  color: var(--color-font-secondary);
+}
+.user_figure p {
+  text-align: center;
+  color: var(--color-font-secondary);
+}

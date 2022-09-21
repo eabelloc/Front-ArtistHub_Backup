@@ -1,0 +1,60 @@
+.mediacard{
+
+    border: 1px solid var(--color-font-secondary);
+    border-radius: 5px;
+    overflow: hidden;
+    background: none;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 20px;
+    }
+    
+    .mediacard img {
+        width: 82px;
+        height: 75%;
+        float: left;
+        margin: 0 1rem 0 0 ;
+        justify-content: center;
+    }
+    
+    h4 {
+        margin: 0 0 0.5rem 0;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    
+    .description_text {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .mediacard_img_description_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (max-width: 930px) {
+        .user-all-data {
+          flex-wrap: wrap;
+        }
+        .description {
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+        .mediacard_img_description_wrapper {
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+      }

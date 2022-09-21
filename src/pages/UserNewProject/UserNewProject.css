@@ -1,0 +1,52 @@
+.login {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login_form {
+    border: solid 1px var(--button-color-font);
+    max-width: 300px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+  .boxuno_login {
+    display: flex;
+    flex-direction: column;
+  
+    margin-bottom: 10px;
+    gap: 0.5rem;
+    margin-left: 10px;
+  }
+  .boxuno_login input {
+    outline-style: none;
+    border-radius: 4px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .new_title {
+    font-weight: bolder;
+    color: var(--button-color-font);
+  }
+  
+  .button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  

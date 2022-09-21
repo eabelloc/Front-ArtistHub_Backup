@@ -1,0 +1,90 @@
+.btn {
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+/*BUTTON COLOURS*/
+
+.headerbutton {
+  border: none;
+  font-weight: bold;
+  background-color: transparent;
+}
+.headerbutton:hover {
+  background: var(--highlight-header);
+}
+
+.primary {
+  border: none;
+  font-weight: bold;
+}
+.primary:hover {
+  background-color: var(--highlight);
+}
+
+.formulary {
+  border: none;
+  font-weight: bold;
+}
+.formulary:hover {
+  background-color: var(--highlight);
+}
+
+.new {
+  border: none;
+  font-weight: bold;
+}
+.new:hover {
+  background-color: var(--highlight);
+}
+
+.edit {
+  border: none;
+  font-weight: bold;
+}
+.edit:hover {
+  background-color: var(--highlight);
+}
+
+.delete {
+  border: none;
+  font-weight: bold;
+}
+.delete:hover {
+  background-color: var(--highlight);
+}
+
+.artist {
+  border: none;
+  font-weight: bold;
+  background: var(--button-background);
+  
+}
+.artist:hover {
+  background-color: var(--highlight);
+}
+
+/*BUTTON SIZES*/
+.diminute {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.small {
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.medium {
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.large {
+  padding: 15px 40px;
+  font-size: 28px;
+  border-radius: 5px;
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200;300;400;700&display=swap");
+
+:root {
+  --background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.553) 0%,
+    rgba(253, 29, 29, 0.514) 50%,
+    rgba(252, 176, 69, 0.508) 100%
+  );
+  --color-font: #fff;
+  --color-font-secondary: rgb(0, 0, 0);
+  --button-background: #fff;
+  --button-color-font: #000;
+  --button-color-font-hover: rgb(108, 69, 250) 0;
+  --highlight: rgba(252, 176, 69, 0.508);
+  --highlight-header: rgba(255, 255, 255, 0.322);
+  --logo: url("../../../public/assets/ArtistHub-logo.png");
+}
+
+/*body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size:20px;
+  background: linear-gradient(-120deg, #e5a89599, #e7abc2a4, #7dc3dc94, #b4e7dba3);
+  background-size: 1200%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anek Telugu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+h2 {
+  color: var(--button-color-font);
+}
+
+body {
+  background: var(--background);
+  color: var(--color-font);
+}
+
+.mode {
+  width: 100%;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  color: var(--color-font-secondary);
+}
+

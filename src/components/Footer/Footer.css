@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.footer_text {
+  color: var(--color-font-secondary);
+}

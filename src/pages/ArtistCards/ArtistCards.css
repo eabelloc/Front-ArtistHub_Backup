@@ -1,0 +1,73 @@
+.artists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.artists h2 {
+  margin-top: 20px;
+}
+
+.artists .galeria {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.searchBox {
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  height: 50px;
+  border-radius: 40px;
+  padding: 10px;
+  border-bottom: 2px;
+  border-color: #2f3640;
+}
+
+.searchBox:hover > .searchInput {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  color: #2f3640;
+}
+
+.searchButton {
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.searchInput {
+  
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+ border-bottom: solid 1px var(--color-font-secondary);
+ border-top: none;
+ border-left: none;
+ border-right: none;
+}
+
+@media screen and (max-width: 620px) {
+  .searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+  }
+}
