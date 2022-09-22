@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { API } from "../../services/API";
-import "./Projectdetail.css";
+import "./ProjectDetail.css";
 
 const ProjectDetail = () => {
   const { id } = useParams();
